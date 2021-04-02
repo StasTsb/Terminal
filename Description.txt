@@ -1,0 +1,22 @@
+1.  Where i am                                    (pwd);
+2.  Create a folder                               (mkdir);
+3.  Enter the folder                              (cd);
+4.  Create three folders                          (mkdir(use "space" betwen titles);
+5.  Choose (bw p.4) and enter any folder          (cd);
+6.  Create five files (3 txt, 2 json)             (touch(use "space" betwen titles);
+7.  Create three folders                          (p.4);
+8.  Show folder (p.3) content                     (ls -l);  
+9.  Open any .txt file                            (nano);
+10. Write there anything                          (just write:);
+11. Save and exit                                 (ctrl+x);
+12. Exit the folder by lvl up                     (cd ..);
+13. Move any two files to another folder          (mv);
+14. Copy any two files to another folder          (cp);
+15. Find file by name                             (find);
+16. File content in real time                     (grep);
+17. Show first lines from file                    (head);
+18. Show last lines from file                     (tail);
+19. Show the contents of a large file             (less);
+20. Show date and time                            (date);
+******************************************
+Write a script that will perform p: 4;5;6;7;8;13

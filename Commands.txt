@@ -26,5 +26,6 @@
 26. Commit from local br. to external             (git commit -am "some text");
 27. Delete branch                                 (branch -D);
 28. How to rename branch                          (git branch -m( "last name" "new name"));
+29. Merge branch "x" in "main"                    (first of all you need to go to "main" branch after (git merge "branch_name")  
 ******************************************
 

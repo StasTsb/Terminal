@@ -29,4 +29,10 @@
 29. Merge branch "x" in "main"                    (first of all you need to go to "main" branch after (git merge "branch_name");
 30. How to push local branch to remote repo       (git push -u origin "name");
 ******************************************
-
+Сreating a local repository and its push
+-------------------------------------------------------
+1) Log in to your accoun: thttps://github.com 
+2) New repository > (Repository name) > Create repository.
+3) In the local repository, run the command:  git remote add origin https://github.com/username/myproject.git
+(This command will add a remote repository named "origin", which points to your Github repository). 
+4) Add changes to a remote repository: git push -u origin master

@@ -28,8 +28,12 @@
 28. Rename branch                                 (git branch -m( "last name" "new name"));
 29. Merge branch "x" in "main"                    (first of all you need to go to "main" branch after (git merge "branch_name");
 30. How to push local branch to remote repo       (git push -u origin "name");
-31. Connect to the remote repository and 
-    extract all changes from it                   (git fetch (next git pull));
+31. Connect to the remote repository and          (git fetch (next git pull));
+    extract all changes from it                   
+32. Deleting a file from the repository           (.gitignore
+    without deleting it on the local computer      git rm --cached --ignore-unmatch application.yml
+                                                   git commit -am "Message"
+                                                   git push origin {branch name} )
 ******************************************
 Сreating a local repository and its push
 -------------------------------------------------------
